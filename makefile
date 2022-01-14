@@ -1,2 +1,2 @@
 dev:
-	go fmt ./server.go && go run ./server.go
+	go fmt ./main.go && go run ./main.go

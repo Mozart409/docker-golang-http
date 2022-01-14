@@ -1,0 +1,9 @@
+localhost {
+        encode zstd gzip
+        reverse_proxy 127.0.0.1:8080
+}
+
+go.localhost {
+        encode zstd gzip
+        reverse_proxy 127.0.0.1:8080
+}
