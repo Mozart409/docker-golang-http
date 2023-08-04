@@ -1,5 +1,5 @@
 module github.com/mozart409/docker-golang-http
 
-go 1.13
+go 1.20
 
-require golang.org/x/tools/gopls v0.7.4 // indirect
+require github.com/gorilla/mux v1.8.0 // indirect
